@@ -1,102 +1,159 @@
-💎 Sims 4 Mod ZIP Manager
-A beautiful and simple desktop app to batch extract Sims 4 mod ZIP files into one organized folder.
+# 💎 Sims 4 Mod ZIP Manager
 
-✨ Built with Tauri + React + TypeScript
+A beautiful and simple desktop app to **batch extract Sims 4 mod ZIP files** into one organized folder.
 
-🌸 Features
-📦 Batch Extraction: Extract all ZIP/RAR files in one click.
+✨ Built with **Tauri + React + TypeScript**
 
-📁 Custom Output Folder: Choose exactly where your mods go.
+---
 
-🎮 Quick Access: Open your Sims 4 Mods folder instantly.
+## 🌸 Features
 
-🔍 Search & Filter: Quickly find ZIP or extracted files.
+* 📦 **Batch Extraction**
+  Extract all ZIP/RAR files in one click
 
-🌍 Multi-language Support: English / 中文 / 日本語 / 한국어.
+* 📁 **Custom Output Folder**
+  Choose exactly where your mods go
 
-🎨 Clean UI: Soft pink aesthetic, Sims-inspired design.
+* 🎮 **Quick Access**
+  Open your Sims 4 Mods folder instantly
 
-🖥️ Download
-👉 Windows Installer (.exe) Download the latest version from the releases page:
+* 🔍 **Search & Filter**
+  Quickly find ZIP or extracted files
 
-➡️ Download Latest Release
+* 🌍 **Multi-language Support**
+  English / 中文 / 日本語 / 한국어
 
-📸 Preview
-Splash Screen
-Zip Vault
-Extracted Files
-🚀 Getting Started (Development)
-Follow these steps to run the app locally:
+* 🎨 **Clean UI**
+  Soft pink aesthetic, Sims-inspired design
 
-1. Clone the repo
+---
 
-Bash
+## 🖥️ Download
+
+👉 **Windows Installer (.exe)**
+
+Download the latest version from the releases page:
+
+➡️ [Download Latest Release](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)
+
+---
+
+## 📸 Preview
+
+### Splash Screen
+
+*(Add screenshot here)*
+
+### Zip Vault
+
+*(Add screenshot here)*
+
+### Extracted Files
+
+*(Add screenshot here)*
+
+---
+
+## 🚀 Getting Started (Development)
+
+### 1. Clone the repo
+
+```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
-2. Install dependencies
+```
 
-Bash
+### 2. Install dependencies
+
+```bash
 npm install
-3. Run the app
+```
 
-Bash
+### 3. Run the app
+
+```bash
 npx tauri dev
-📦 Build
+```
+
+---
+
+## 📦 Build
+
 To build the installer for production, run:
 
-Bash
+```bash
 npx tauri build
-Note: Your installer will be generated and located at:
+```
 
+Your installer will be located at:
+
+```
 src-tauri/target/release/bundle/nsis/
+```
 
-⚙️ Tech Stack
-⚛️ React + TypeScript - Frontend UI
+---
 
-🦀 Tauri (Rust) - Core backend
+## ⚙️ Tech Stack
 
-🎨 Custom CSS - Styling and UI
+* ⚛️ React + TypeScript — Frontend UI
+* 🦀 Tauri (Rust) — Core backend
+* 🎨 Custom CSS — Styling and UI
+* 📦 Rust ZIP/RAR libraries — Fast file extraction
 
-📦 Rust ZIP/RAR libraries - Fast file extraction
+---
 
-💡 Why this project?
+## 💡 Why this project?
+
 Managing Sims 4 mods can get messy really fast:
 
-❌ Too many ZIP files clogging up your Downloads folder
+* ❌ Too many ZIP files clogging up your Downloads folder
+* ❌ Tedious manual extraction
+* ❌ Scattered folders and disorganized CC
 
-❌ Tedious manual extraction
+This tool solves that with:
 
-❌ Scattered folders and disorganized CC
+👉 **One-click batch extraction + an automatically organized output folder**
 
-This tool solves that with: 👉 One-click batch extraction + an automatically organized output folder.
+---
 
-🛣️ Roadmap
-[ ] Auto-detect Sims 4 Mods folder
+## 🛣️ Roadmap
 
-[ ] Drag & drop ZIP support
+* [ ] Auto-detect Sims 4 Mods folder
+* [ ] Drag & drop ZIP support
+* [ ] Mod conflict detection
+* [ ] Auto-update system
+* [ ] macOS version
 
-[ ] Mod conflict detection
+---
 
-[ ] Auto-update system
+## 📂 Project Structure
 
-[ ] macOS version
-
-📂 Project Structure
-Plaintext
+```
 ├── src/            → React frontend
 ├── src-tauri/      → Rust backend
 └── icons/          → App icons
-🧑‍💻 Author
-Louisa Liu 🎓 NYU Computer Science
+```
+
+---
+
+## 🧑‍💻 Author
+
+**Louisa Liu**
+🎓 NYU Computer Science
 
 💡 Interested in Product + Engineering
 
-💖 Acknowledgements
+---
+
+## 💖 Acknowledgements
+
 Inspired by:
 
-The incredibly creative Sims 4 Modding Community.
+* The Sims 4 Modding Community
+* The need for better and more aesthetic mod management tools
 
-The sheer need for better, aesthetically pleasing mod management tools.
+---
 
-📜 License
-This project is licensed under the MIT License.
+## 📜 License
+
+This project is licensed under the **MIT License**
