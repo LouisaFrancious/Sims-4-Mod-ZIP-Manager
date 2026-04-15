@@ -34,7 +34,7 @@ A beautiful and simple desktop app to **batch extract Sims 4 mod ZIP files** int
 
 Download the latest version from the releases page:
 
-➡️ [Download Latest Release](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)
+➡️ [Download Latest Release](https://github.com/LouisaFrancious/Sims-4-Mod-ZIP-Manager/releases/tag/1.0.0)
 
 ---
 
