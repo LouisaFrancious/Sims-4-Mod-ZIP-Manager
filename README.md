@@ -8,29 +8,20 @@ A beautiful and simple desktop app to **batch extract Sims 4 mod ZIP files** int
 
 ## 🌸 Features
 
-- 📦 **Batch Extraction**
-  - Extract all ZIP/RAR files in one click
-- 📁 **Custom Output Folder**
-  - Choose where your mods go
-- 🎮 **Quick Access to Mods Folder**
-  - Open Sims 4 Mods folder instantly
-- 🔍 **Search & Filter**
-  - Quickly find ZIP or extracted files
-- 🌍 **Multi-language Support**
-  - English / 中文 / 日本語 / 한국어
-- 🎨 **Clean UI**
-  - Soft pink aesthetic, Sims-inspired design
+- 📦 **Batch Extraction:** Extract all ZIP/RAR files in one click.
+- 📁 **Custom Output Folder:** Choose exactly where your mods go.
+- 🎮 **Quick Access:** Open your Sims 4 Mods folder instantly.
+- 🔍 **Search & Filter:** Quickly find ZIP or extracted files.
+- 🌍 **Multi-language Support:** English / 中文 / 日本語 / 한국어.
+- 🎨 **Clean UI:** Soft pink aesthetic, Sims-inspired design.
 
 ---
 
 ## 🖥️ Download
 
-👉 **Windows Installer (.exe)**  
-Go to:
+👉 **Windows Installer (.exe)** Download the latest version from the releases page:
 
-➡️ https://github.com/YOUR_USERNAME/YOUR_REPO/releases
-
-Download the latest version.
+➡️ [Download Latest Release](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)
 
 ---
 
@@ -49,70 +40,79 @@ Download the latest version.
 
 ## 🚀 Getting Started (Development)
 
-### 1. Clone repo
+Follow these steps to run the app locally:
 
+**1. Clone the repo**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone [https://github.com/YOUR_USERNAME/YOUR_REPO.git](https://github.com/YOUR_USERNAME/YOUR_REPO.git)
 cd YOUR_REPO
+2. Install dependencies
 
-### 2. Install dependencies
+Bash
 npm install
+3. Run the app
 
-### 3 Run app
+Bash
 npx tauri dev
+📦 Build
+To build the installer for production, run:
 
-## 📦 Build
+Bash
 npx tauri build
+Note: Your installer will be generated and located at:
 
-Your installer will be located at:
 src-tauri/target/release/bundle/nsis/
 
-## ⚙️ Tech Stack
-⚛️ React + TypeScript  
-🦀 Tauri (Rust backend)  
-🎨 Custom CSS UI  
-📦 ZIP extraction via Rust
+⚙️ Tech Stack
+⚛️ React + TypeScript - Frontend UI
 
-## 💡 Why this project?
-Managing Sims 4 mods is messy:  
+🦀 Tauri (Rust) - Core backend
 
-Too many ZIP files  
-Manual extraction  
-Scattered folders  
+🎨 Custom CSS - Styling and UI
 
-This tool solves that with:  
+📦 Rust ZIP/RAR libraries - Fast file extraction
 
-👉 One-click batch extraction + organized output
+💡 Why this project?
+Managing Sims 4 mods can get messy really fast:
 
-## 🛣️ Roadmap
- Auto-detect Sims 4 Mods folder  
- Drag & drop ZIP support  
- Mod conflict detection  
- Auto-update system  
- macOS version
+❌ Too many ZIP files clogging up your Downloads folder
 
-## 📂 Project Structure
-src/            → React frontend  
-src-tauri/      → Rust backend  
-icons/          → App icons
+❌ Tedious manual extraction
 
-## 🧑‍💻 Author
+❌ Scattered folders and disorganized CC
 
-### Louisa Liu
+This tool solves that with: 👉 One-click batch extraction + an automatically organized output folder.
 
-NYU Computer Science  
-Interested in Product + Engineering
+🛣️ Roadmap
+[ ] Auto-detect Sims 4 Mods folder
 
-## 💖 Acknowledgements
+[ ] Drag & drop ZIP support
 
+[ ] Mod conflict detection
+
+[ ] Auto-update system
+
+[ ] macOS version
+
+📂 Project Structure
+Plaintext
+├── src/            → React frontend
+├── src-tauri/      → Rust backend
+└── icons/          → App icons
+🧑‍💻 Author
+Louisa Liu 🎓 NYU Computer Science
+
+💡 Interested in Product + Engineering
+
+💖 Acknowledgements
 Inspired by:
 
-The Sims 4 modding community
-The need for better mod management tools
+The incredibly creative Sims 4 Modding Community.
 
-## 📜 License
+The sheer need for better, aesthetically pleasing mod management tools.
 
-MIT License  
+📜 License
+This project is licensed under the MIT License.
 
 
-
+别忘了把里面 `YOUR_USERNAME` 和 `YOUR_REPO` 替换成你真实的 GitHub 用户名和仓库名哦！
