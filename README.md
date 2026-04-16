@@ -50,15 +50,18 @@ Download the latest version from Releases:
 
 ### Splash Screen
 
-*(Add screenshot here / 添加截图)*
+<img width="1437" height="957" alt="start" src="https://github.com/user-attachments/assets/be3e736f-ab22-4cbb-85b7-feeb3989b2ff" />
+
 
 ### Zip Vault
 
-*(Add screenshot here / 添加截图)*
+<img width="1440" height="960" alt="1541e1d1e5ff3f96b6af47011be5b701" src="https://github.com/user-attachments/assets/5cb0e838-8036-4d62-ba57-0819596b9ffa" />
+
 
 ### Extracted Files
 
-*(Add screenshot here / 添加截图)*
+<img width="1440" height="960" alt="ace9b0ae1b76340526641be183befadc" src="https://github.com/user-attachments/assets/f299289d-6f79-46ff-a1fa-018b158cc4ae" />
+
 
 ---
 
