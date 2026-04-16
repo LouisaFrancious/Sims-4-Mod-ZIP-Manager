@@ -50,17 +50,30 @@ Download the latest version from Releases:
 
 ### Splash Screen
 
+Click on 'Launch application' to unzip your zip/rar files.
 <img width="1437" height="957" alt="start" src="https://github.com/user-attachments/assets/be3e736f-ab22-4cbb-85b7-feeb3989b2ff" />
 
 
 ### Zip Vault
+
+Click on 'choose zip folder' to select the folder path that you want to unzip all the zip/rar format files into one folder with only package selected.  
+Click on 'Extract All'  to unzip.
 
 <img width="1440" height="960" alt="1541e1d1e5ff3f96b6af47011be5b701" src="https://github.com/user-attachments/assets/5cb0e838-8036-4d62-ba57-0819596b9ffa" />
 
 
 ### Extracted Files
 
+Before you unzip, please select the path for the unzipped files.  
+You are able to open the Sims 4 mods file by clicking on 'Open Mods Folder'  
+
 <img width="1440" height="960" alt="ace9b0ae1b76340526641be183befadc" src="https://github.com/user-attachments/assets/f299289d-6f79-46ff-a1fa-018b158cc4ae" />
+
+### Settings
+
+Language settings are currently available in English, Simplified Chinese, Japanese, Korean.  
+
+<img width="1440" height="960" alt="0d60cfc624e15714702b056c876420fa" src="https://github.com/user-attachments/assets/657e512d-fcea-4da6-a2c6-856b811be268" />
 
 
 ---
